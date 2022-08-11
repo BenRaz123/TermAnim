@@ -21,6 +21,7 @@ possibleColors = [Fore.MAGENTA, Fore.BLUE, Fore.CYAN, Fore.GREEN, Fore.YELLOW, F
 
 for i in range(3):
     colorKey = 0
+
     for j in range(termWidth):
         if i % 3 == 0:
             colorKey += 1
@@ -33,7 +34,7 @@ for i in range(3):
             leftSide += "\\"
         print(f"{Style.DIM}{leftSide}{Style.NORMAL}{possibleColors[colorKey]}{rightSide}")
         sleep(sleepTime)
-    colorKey = 0
+    
     for j in range(termWidth):
         if i % 3 == 0:
             colorKey += 1
