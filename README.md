@@ -1,6 +1,6 @@
 # TermAnim: A Fun Terminal Animation
 
-![Screenshot](Images/Screenshot.png)
+![Screenshot](Images/screenShot.png)
 
 ## Install
 
